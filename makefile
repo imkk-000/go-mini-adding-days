@@ -3,3 +3,6 @@ build:
 
 run:
 	go run main.go 0
+
+copy:
+	cp add_curr_days ~/.local/bin/

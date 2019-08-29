@@ -21,6 +21,5 @@ func main() {
 		return
 	}
 	now := time.Now()
-	fmt.Println(now.Format(format))
 	fmt.Println(now.Add(day * time.Duration(addingDays)).Format(format))
 }
